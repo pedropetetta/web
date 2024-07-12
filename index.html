@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Petetta - DMM2AP </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+
+      header {position: relative;}
+
+      #logo{
+        width: 40px;
+        height: 40px;
+        background: url(imagenes/logo2.png);
+        font-size: 0;
+        position: absolute;
+        z-index: 1;
+        top: 8px;
+        left: 2rem;
+      }
+
+      @media screen and (max-width: 991px) {
+        .navbar-nav .nav-link {
+          background-color: rgba(255, 255, 255, 0.555) !important;
+          margin: 10px 0
+        }
+        #logo{
+          left: calc(50% - 20px);
+        }
+      }
+
+      
+       #Gracias{
+        
+        
+        width: 200px;
+        padding: 20px;
+        background-color: red;
+        color: white;
+        position: fixed;
+        text-align: center ;
+        left: calc(50% - 100px);
+        top: 50px;
+        display: none;
+       }
+
+       #Gracias:target {
+        display: block;
+       }
+
+        
+      
+
+        section:first-of-type ¨{
+            margin-top :  60px; ;
+        }
+
+       
+      
+
+       section:first-of-type{
+        margin-top: 60px;
+       }
+
+       #Formulario{ padding: 10px; border: 1px solid black; text-align: center; }
+
+       #foot { text-align: center;}
+
+       .ENLACES{ margin-bottom: 20px ;}
+       
+
+       
+
+       
+        
+    </style>
+</head>
+<body>
+    <header class="container " >
+    <h1 id="logo">Titulo</h1>
+<section class="container" id="navegar">
+  <nav class="navbar  navbar-expand-lg  bg-body-tertiary row ">
+    <div class="container">
+      
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-center ms-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#CARRUSEL" data-ancla="xd">INICIO</a>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Pastillas" data-ancla="xd">INFORMATE</a>
+            </li>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Principal" data-ancla="xd">NOSOTROS</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#Video" data-ancla="xd">ANIMATE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Formulario" data-ancla="xd">CONTACTANOS</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+    </section>
+</header>
+
+<section class="container">
+    
+    <div class="row mb-5" id="CARRUSEL" >
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/98.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/GettyImages-1032070212.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/planchas.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/crossfit-1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+</section>
+
+
+
+<section class="container" >
+
+
+    
+    <h2 class="mt-5 mb-5 text-center" >¡Aprendé con nosotros!</h2>
+    <div class="row col-sm-text-align: text-center ms-auto justify-content-evenly  " id="Pastillas" >
+
+    <article class="pastilla1 col-xl-3 col-md-6 col-lg-6 ">
+        
+        <div class="card " >
+          <img src="imagenes/anorexia.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¡No pases hambre!</h5>
+            <p class="card-text">La falta de comida y nutrientes puede llevar a problemas de salud graves como debilidad física, deterioro muscular y deficiencias nutricionales, y puede afectar el desarrollo cognitivo y la capacidad de concentración, comprometiendo el bienestar general.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+    </article>
+
+    <article class="pastilla2 col-xl-3 col-md-6  col-lg-6  ">
+        
+        <div class="card"    >
+          <img src="imagenes/JOVIES.jpg" class="card-img-top" alt="gente adulta">
+          <div class="card-body">
+            <h5 class="card-title">Vida adulta en movimiento</h5>
+            <p class="card-text">El ejercicio en la edad avanzada es vital para la salud física y mental. Fortalece el cuerpo, reduce el riesgo de caídas y enfermedades crónicas como la diabetes y las enfermedades cardíacas, mejorando así la calidad de vida en la vejez.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+    </article>
+
+    <article class="pastilla3 col-xl-3 col-md-6 col-lg-6   ">
+        
+        
+        <div class="card"   >
+          <img src="imagenes/DIET.jpg" class="card-img-top" alt="Dieta">
+          <div class="card-body">
+            <h5 class="card-title">¡Mantené tu cuerpo contento!</h5>
+            <p class="card-text">
+              
+
+Una dieta balanceada es crucial para la salud, proporcionando nutrientes esenciales que fortalecen el cuerpo, mantienen el peso adecuado y reducen el riesgo de enfermedades crónicas, promoviendo así una vida más saludable y prolongada.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+    </article>
+
+    <article class="pastilla4 col-xl-3 col-md-6 col-lg-6  "> 
+        
+        <div class="card"  >
+          <img src="imagenes/PROTE.jpg" class="card-img-top" alt="Proteina">
+          <div class="card-body">
+            <h5 class="card-title">Proteína en polvo</h5>
+            <p class="card-text">La proteína en polvo es un suplemento que mejora la ingesta de proteínas, cruciales para la reparación y crecimiento muscular. Beneficia a atletas y personas activas al mejorar la recuperación post-entrenamiento y apoyar la pérdida de peso.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+    </article>
+</div>
+
+
+
+</section>
+
+<section class="container" id="Principal" >
+    
+    
+  <h3 class="mt-5 text-center" >¿Que es BPM Fitness?</h3>
+
+ 
+  
+  <p class="text-center ">En el vibrante corazón de Buenos Aires, <strong>BPM Fitness se destaca como un gimnasio dedicado a transformar vidas a través del ejercicio y el bienestar. </strong> Somos más que un lugar para entrenar; somos una comunidad comprometida con tu salud y tu rendimiento. En BPM Fitness, nos enfocamos en ofrecer un ambiente inclusivo y motivador donde cada miembro puede alcanzar sus metas personales con el apoyo de un equipo de profesionales altamente capacitados. 
+    <br>
+     Entendemos que cada persona tiene diferentes necesidades y preferencias, por lo que ofrecemos una variedad de clases y actividades diseñadas para todos los niveles. Desde sesiones de Yoga que promueven la flexibilidad y la relajación, hasta el desafiante CrossFit que mejora la fuerza y la resistencia, tenemos algo para todos. Llevar una vida activa y saludable es fundamental para el bienestar integral. La actividad física regular no solo mejora la condición física, sino que también tiene numerosos beneficios para la salud mental, como la reducción del estrés y la mejora del estado de ánimo.
+     <br> En BPM, creemos en el poder del aprendizaje continuo y el crecimiento personal. No importa si eres un principiante o un atleta experimentado, nuestras instalaciones de última generación y la variada oferta de clases te proporcionarán todas las herramientas necesarias para mejorar tu condición física. Estamos dedicados a ayudarte a aprender nuevas habilidades, a mejorar tu técnica y a avanzar en tu camino hacia una vida más saludable y activa.
+     <br>
+     Llevar una vida activa y saludable es fundamental para el bienestar integral. La actividad física regular no solo mejora la condición física, sino que también tiene numerosos beneficios para la salud mental, como la reducción del estrés y la mejora del estado de ánimo. 
+     <br>
+     En BPM Fitness, promovemos una rutina de ejercicio que previene enfermedades crónicas, mejora la calidad del sueño y aumenta los niveles de energía diaria, ayudándote a sentirte mejor en todos los aspectos de tu vida. No esperes más y súmate a BPM Fitness. Ven y descubre un espacio donde cada entrenamiento es una oportunidad para ser mejor. Nuestra comunidad está lista para recibirte y apoyarte en tu viaje hacia un estilo de vida más saludable y activo. ¡Únete a nosotros y siente la diferencia en BPM Fitness! ¡Te esperamos con los brazos abiertos!</p>
+
+     <br><br><br>
+    
+
+    </section>
+<section>
+    <div class="position-absolute start-50 translate-middle mt-5 mb-5 !important">
+      <img src="imagenes/LOGO2XL.png" alt="logo22" id="logo21" >
+     </div>
+     
+    </section>
+    <br><br><br>
+</section>
+
+<section class="container mt-5">
+    
+    <div class="row mt-5 " id="Video">
+
+      <br><br>
+ <figure class=" ratio ratio-16x9 mt-5">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0YyCeTmWPoI?si=5xqcJtDzktWFPYLA&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    </figure>
+    </div>
+
+    
+</section>
+
+
+
+
+    
+
+ <H3 class="mt-5 container text-center">¡Contactanos!</H3>
+ <aside class="container mb-5" id="Formulario">
+
+<form action="recursos/enviar_formulario.php">
+
+  <div class="mb-2 mt-3">
+    <label>E-Mail </label>
+  <input type="email" name="mail">
+  </div>
+
+  
+    <label>Nombre</label>
+    <input type="text" name="nombre">
+  </div>
+
+  <div class="mt-2">
+  <label>Apellido</label>
+    <input type="text" name="apellido">
+  </div>
+    
+
+  <div class="mt-4">
+    <legend>Ingresá tu Género</legend>
+  <div>
+    <input type="radio" name="Genero" value="Masculino" id="m">
+    <label for="m">Masculino</label>
+  </div>
+
+  <div>
+    <input type="radio" name="Genero" value="Femenino" id="f">
+    <label for="f">Femenino</label>
+  </div>
+
+  <div>
+    <input type="radio" name="Genero" value="Otro" id="o">
+    <label for="o">Otro</label>
+  </div>
+
+  <div class="mt-4">
+    <label>Fecha de Nacimiento</label>
+      <input type="date" name="edad"  max="2009-01-01">
+    </div>
+  </div>
+
+
+
+
+  <div class="mt-4">
+    <input type="submit" value="enviar">
+  </div>
+
+
+</form>
+
+
+<div id="Gracias">
+
+<p>¡Gracias por contactarnos! </p>
+<a href="#">Cerrar</a>
+</div>
+ </aside>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src= "js/bootstrap.bundle.min.js" > </script> 
+    
+    <script src="js/animaScroll.js"></script>
+     
+</body>
+
+<footer id="foot">
+<p>Pedro Petetta - DMM2AP - Maqueteado y Desarrollo web - Omas Toyos</p>
+<div class="ENLACES">
+  <a href="https://twitter.com/home" target="_blank">
+      <img src="imagenes/TWITTER.jpg" class="tw" alt="TWITTER">
+  </a>
+  
+  <a href="https://www.instagram.com/" target="_blank">
+      <img src="imagenes/INSTAGRAM.png" class="ig" alt="INSTAGRAM">
+  </a>
+  
+  <a href="https://gmail.com/" target="_blank">
+      <img src="imagenes/MAIL.jpg" class="MAIL" alt="MAIL">
+  </a>
+
+</footer>
+</html>
